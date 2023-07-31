@@ -44,7 +44,7 @@ winget:
     homepage: https://github.com/spacelift-io/spacectl
     short_description: "Spacelift client and CLI"
     repository:
-      owner: spacelift-io
+      owner: mbialon
       name: winget-pkgs
       branch: "spacectl-{{.Version}}"
       token: "{{ .Env.WINGET_GITHUB_TOKEN }}"
